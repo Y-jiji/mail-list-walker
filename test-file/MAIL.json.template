@@ -1,0 +1,18 @@
+{
+    "SERVICE": {
+        "PROVIDER":     "smtp.mail.example.com",
+        "PORT"    :     "999",
+        "USERNAME":     "example.mail.box@mail.example.com",
+        "PASSWORD":     "Your Password"
+    },
+    "HEAD-FORMAT": {
+        "FROM"   :      "Your Name <example.mail.box@mail.example.com>",
+        "TO"     :      "{name} <{something}@mail.example.com>",
+        "SUBJECT":      "title"
+    },
+    "BODY-FORMAT": [
+        "hello from {name} to {other}", 
+        "asdcaasdocnasldnc",
+        "zisgliegarpdvisd;ojisf;jzvlkls",
+    ]
+}
